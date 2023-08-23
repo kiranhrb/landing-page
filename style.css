@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', serif;
+}
+footer {
+    color: white;
+    text-align: center;
+    background-color: #1F2937;
+    margin: 15px;
+    padding: 30px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+span {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+}
