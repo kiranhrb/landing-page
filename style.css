@@ -1,21 +1,47 @@
 body {
     font-family: 'Roboto', serif;
 }
+
+.header {
+    color: white;
+    text-align: center;
+    background-color: #1F2937;
+    margin: 0px;
+    padding: 1 0px;
+    border: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    background-color: #1F2937;
+    margin: 0px;
+    padding: 10px;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 footer {
     color: white;
     text-align: center;
     background-color: #1F2937;
-    margin: 15px;
+    margin: 0px;
     padding: 30px;
+    border: 0px;
 }
 
 .quote {
     background-color: #E5E7EB;
-    margin: 20px;
+    margin: 0px;
     padding: 20px;
     font-size: 30px;
     color: #1F2937;
     font-style: italic;
+    border: 0px;
 }
 
 span {
@@ -24,4 +50,38 @@ span {
     font-weight: bold;
     color: black;
     font-style: normal;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    height: 200px;
+    width: 900px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.subtext {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.button2 {
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: white;
+    margin: 5px;
+    background-color: #3882F6;
+    color: white;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    
 }
