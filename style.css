@@ -13,6 +13,18 @@ body {
     justify-content: space-between;
 }
 
+.header .right-head {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.header .left-head {
+    margin: 10px;
+    display: flex;
+}
+
 .hero {
     color: white;
     text-align: center;
@@ -21,17 +33,42 @@ body {
     padding: 10px;
     border: 0px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-footer {
-    color: white;
+.button1 {
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    font-size: 20px;
+    background-color: #3882F6;
+    color: white;    
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagebox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagebox img {
+    width: 250px;
+    max-height: 100%;
+    margin: 30px;
+ }
+
+h2 {
     text-align: center;
-    background-color: #1F2937;
-    margin: 0px;
-    padding: 30px;
-    border: 0px;
 }
 
 .quote {
@@ -42,6 +79,13 @@ footer {
     color: #1F2937;
     font-style: italic;
     border: 0px;
+    display: flex;
+    justify-content: center; /* Horizontally center the flex items */
+    align-items: center; /* Vertically center the flex items */
+}
+
+.quote p {
+ max-width: 65%;
 }
 
 span {
@@ -52,6 +96,12 @@ span {
     font-style: normal;
 }
 
+
+.container {
+    display: flex;
+    justify-content: center; /*horizontal alignment*/
+    align-items: center; /*vertical alignment*/
+}
 .action {
     display: flex;
     flex-direction: column;
@@ -62,7 +112,6 @@ span {
     width: 900px;
     background-color: #3882F6;
     border-radius: 20px;
-    justify-content: center;
     align-items: center;
     margin: 50px;
 }
@@ -70,18 +119,30 @@ span {
 .subtext {
     font-size: 18px;
     font-weight: normal;
+    margin: 0;
+    padding: 0;
 }
 
 .button2 {
     font-weight: bold;
     border-radius: 10px;
     border-color: white;
-    margin: 5px;
+    border-width: 2px;
+    margin: 20px;
     background-color: #3882F6;
     color: white;
     padding-left: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
-    
+    font-size: 20px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: #1F2937;
+    margin: 0px;
+    padding: 30px;
+    border: 0px;
 }
