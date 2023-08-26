@@ -1,59 +1,59 @@
 body {
     font-family: 'Roboto', serif;
-}
-
-.header {
-    color: white;
-    text-align: center;
-    background-color: #1F2937;
-    margin: 0px;
-    padding: 1 0px;
-    border: 0px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.header .right-head {
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 18px;
-}
-
-.header .left-head {
-    margin: 10px;
-    display: flex;
-}
+} 
 
 .hero {
     color: white;
-    text-align: center;
+    text-align: left;
     background-color: #1F2937;
     margin: 0px;
     padding: 10px;
     border: 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+
+.topimage {
+    width: 500px;
+    height: auto;
+    margin-right: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .button1 {
     font-weight: bold;
     border-radius: 10px;
-    margin: 20px;
     padding-left: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
     font-size: 20px;
     background-color: #3882F6;
-    color: white;    
+    color: white;
+    width: 115px;
+    border: none;
 }
 
 .left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 130px;
+    margin-right: 50px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.right-head {
+    display: flex;
+    gap: 40px;
 }
 
 .imagebox {
@@ -64,11 +64,13 @@ body {
 .imagebox img {
     width: 250px;
     max-height: 100%;
-    margin: 30px;
+    margin: 20px;
  }
 
 h2 {
     text-align: center;
+    color: #1F2937;
+    padding: 10px;
 }
 
 .quote {
@@ -92,28 +94,37 @@ span {
     display: block;
     text-align: right;
     font-weight: bold;
-    color: black;
+    color: rgb(10, 7, 36);
     font-style: normal;
 }
 
-
 .container {
     display: flex;
-    justify-content: center; /*horizontal alignment*/
-    align-items: center; /*vertical alignment*/
-}
-.action {
-    display: flex;
-    flex-direction: column;
-    font-size: 36px;
+    font-size: 32px;
     color: white;
     font-weight: bold;
-    height: 200px;
-    width: 900px;
+    min-height: 150px;
+    width: auto;
     background-color: #3882F6;
     border-radius: 20px;
     align-items: center;
+    justify-content: space-evenly;
     margin: 50px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: left; /*vertical alignment*/
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.action p {
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .subtext {
