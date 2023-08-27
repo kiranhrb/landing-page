@@ -75,7 +75,8 @@ h2 {
 
 .quote {
     background-color: #E5E7EB;
-    margin: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 20px;
     font-size: 30px;
     color: #1F2937;
@@ -88,6 +89,7 @@ h2 {
 
 .quote p {
  max-width: 65%;
+ margin: 55px;
 }
 
 span {
@@ -96,6 +98,7 @@ span {
     font-weight: bold;
     color: rgb(10, 7, 36);
     font-style: normal;
+    font-size: 24px;
 }
 
 .container {
